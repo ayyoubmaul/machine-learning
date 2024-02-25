@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_diabetes
 from sklearn.ensemble import RandomForestRegressor
 
-mlflow.set_tracking_uri("http://localhost:5000")
+mlflow.set_tracking_uri("http://localhost:5001")
 
 with mlflow.start_run(run_name=f'random_forest_{str(datetime.now().date())}'):
     mlflow.autolog()
