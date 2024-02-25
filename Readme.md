@@ -6,6 +6,7 @@
 4. Run the script by running this command in your terminal: `python /Users/ayyoub/gitrepo/machine_learning/scripts/example_autolog.py`
 5. Run Prediction by running this command in your terminal: `python /Users/ayyoub/gitrepo/machine_learning/scripts/predict.py`
 6. NOTE: Don't forget to change run id when running predict script
+7. It's your turn to try different number of `n_estimators` and find the best setup to improve model prediction.
 
 
 # Minio and MLFlow Services
