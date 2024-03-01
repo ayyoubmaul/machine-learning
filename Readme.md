@@ -3,8 +3,12 @@
 1. Create virtual environment by running this command in your terminal: `python -m venv env`
 2. Activate the virtual environment by running this command in your terminal: `source env/bin/activate`
 3. Install the dependencies by running this command in your terminal: `pip install -r requirements.txt`
-4. Run the script by running this command in your terminal: `python /Users/ayyoub/gitrepo/machine_learning/scripts/example_autolog.py`
-5. Run Prediction by running this command in your terminal: `python /Users/ayyoub/gitrepo/machine_learning/scripts/predict.py`
+4. Run the script by running this command in your terminal: `python /Users/ayyoub/gitrepo/machine_learning/scripts/
+5. Run Prediction by running this command in your terminal:
+
+    `python /Users/ayyoub/gitrepo/machine_learning/scripts/example_autolog.py`
+
+    `python /Users/ayyoub/gitrepo/machine_learning/scripts/predict.py`
 6. NOTE: Don't forget to change run id when running predict script
 7. It's your turn to try different number of `n_estimators` and find the best setup to improve model prediction.
 
