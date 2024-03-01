@@ -21,3 +21,5 @@ export AWS_SECRET_ACCESS_KEY=minio123
 export MLFLOW_S3_ENDPOINT_URL=http://localhost:9000
 ```
 6. Go to your Minio UI and create the bucket named `mlflow`
+
+![Alt text](image.png)

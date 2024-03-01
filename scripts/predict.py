@@ -17,7 +17,7 @@ def eval_metrics(actual, pred):
 db = load_diabetes()
 X_train, X_test, y_train, y_test = train_test_split(db.data, db.target)
 
-logged_model = 'runs:/8375026ea1504776bf6da47d073936a5/model'
+logged_model = 'runs:/97649d5768ff4a0aa45c7f6ec00fe4cd/model'
 
 model = mlflow.sklearn.load_model(logged_model)
 predictions = model.predict(X_test)
